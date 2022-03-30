@@ -5,7 +5,7 @@ def countDayOfTheWeek():
     days = dict()
     for line in x:
         y = line.split()
-        if y[0] != 'From':
+        if y[0] == 'From':
             continue
         else:
             if y[2] not in days:
